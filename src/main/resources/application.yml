@@ -1,0 +1,15 @@
+server:
+  port: 8088
+
+# datasource
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+  mapper-locations: classpath*:mapper/**/*Mapper.xml
+spring:
+  datasource:
+    username: root
+    password: wyqfjmy/
+    url: jdbc:mysql://47.105.190.220:3306/simple-task?characterEncoding=utf8&serverTimeZone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
